@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+tensorflow
+python-dotenv
+langchain
+langchain-openai
+python-multipart

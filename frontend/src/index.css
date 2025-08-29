@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+/* Enable dark mode */
+:root {
+    color-scheme: light;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dark {
+    color-scheme: dark;
+}
+
+/* Force dark mode styles to be included */
+.dark .dark\:bg-gray-900 {
+    background-color: rgb(17 24 39);
+}
+
+.dark .dark\:text-white {
+    color: rgb(255 255 255);
+}
+
+.dark .dark\:text-gray-300 {
+    color: rgb(209 213 219);
+}
+
+.dark .dark\:text-gray-400 {
+    color: rgb(156 163 175);
+}
